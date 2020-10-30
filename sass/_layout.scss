@@ -1,0 +1,11 @@
+.container {
+    padding: 9rem 16rem 7rem;
+}
+
+.heading-primary {
+    @include visually-hidden;
+}
+
+.projects {
+    margin-top: 10.8rem;
+}

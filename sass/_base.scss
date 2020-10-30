@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #e5e5e5;
+    --color-black: #181717;
+    --color-grey: #606060;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
