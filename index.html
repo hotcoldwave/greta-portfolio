@@ -6,141 +6,166 @@
 
         <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap&text=%E2%86%92"
+            rel="stylesheet"
+        />
 
         <title>Site-Portfolio</title>
     </head>
     <body>
         <div class="container">
             <h1 class="heading-primary">Greta Gladkova's resume site</h1>
-            <header class="site-header">
-                <div class="site-header__logo-box">
-                    <a href="#" class="site-header__logo-text">
-                        <span>gg.</span>
-                    </a>
-                </div>
-                <ul class="site-header__site-nav site-nav">
-                    <li class="site-nav__item">
-                        <a href="#" class="site-nav__link">
-                            <span>Work</span>
+
+            <section class="introduce">
+                <header class="site-header">
+                    <div class="site-header__logo-box">
+                        <a href="#" class="site-header__logo-text">
+                            <span>gg.</span>
                         </a>
-                    </li>
-                    <li class="site-nav__item">
-                        <a href="#" class="site-nav__link">
-                            <span>About</span>
-                        </a>
-                    </li>
-                    <li class="site-nav__item">
-                        <a href="#" class="site-nav__link">
-                            <span>Contact</span>
-                        </a>
-                    </li>
-                </ul>
-            </header>
-            <main class="site-content">
-                <section class="introduce">
-                    <h2 class="introduce__heading heading-secondary">Hello, I’m Greta.</h2>
-                    <p class="introduce__text">
+                    </div>
+                    <ul class="site-header__site-nav site-nav">
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">
+                                <span>Work</span>
+                            </a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+
+                <section class="greeting">
+                    <h2 class="greeting__heading heading-secondary">Hello, I’m Greta.</h2>
+                    <p class="greeting__text">
                         An experiensed print and web designer from Saint-Petersburg. Studio Keen founder
                     </p>
                 </section>
-                <section class="projects">
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">01 / Skyfoxy</h3>
-                            <p class="project__description">Jewellery brand from Saint-Petersburg</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
-                        </div>
-                        <img src="./img/project-skyfoxy.png" alt="Project Skyfoxy" class="project__preview" />
-                    </article>
+            </section>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">02 / Allcart</h3>
-                            <p class="project__description">E-commerse admin dashboard</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+            <section class="projects">
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">01 / Skyfoxy</h3>
+                        <p class="project__description">Jewellery brand from Saint-Petersburg</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="./img/project-allcart.png" alt="Project Allcart" class="project__preview" />
-                    </article>
+                    </div>
+                    <img src="./img/project-skyfoxy.png" alt="Project Skyfoxy" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">03 / Nadya's Knitting</h3>
-                            <p class="project__description">Branding and e-commerse</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">02 / Allcart</h3>
+                        <p class="project__description">E-commerse admin dashboard</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="#" alt="Project Nadya's Knitting" class="project__preview" />
-                    </article>
+                    </div>
+                    <img src="./img/project-allcart.png" alt="Project Allcart" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">04 / Honka Nova</h3>
-                            <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
-                            <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">03 / Nadya's Knitting</h3>
+                        <p class="project__description">Branding and e-commerse</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="./img/project-honka-nova.png" alt="Project Honka Nova" class="project__preview" />
-                    </article>
+                    </div>
+                    <img src="#" alt="Project Nadya's Knitting" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">05 / Rosmorport</h3>
-                            <p class="project__description">Experimental creature modeling for school project</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">04 / Honka Nova</h3>
+                        <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
+                        <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="./img/project-rosmorport.png" alt="Project Rosmorport" class="project__preview" />
-                    </article>
+                    </div>
+                    <img src="./img/project-honka-nova.png" alt="Project Honka Nova" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">06 / Concept</h3>
-                            <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
-                            <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">05 / Rosmorport</h3>
+                        <p class="project__description">Experimental creature modeling for school project</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="./img/project-concept.png" alt="Project Concept" class="project__preview" />
-                    </article>
+                    </div>
+                    <img src="./img/project-rosmorport.png" alt="Project Rosmorport" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">07 / Polymetal Presentation</h3>
-                            <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
-                            <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">06 / Concept</h3>
+                        <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
+                        <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img
-                            src="./img/project-polymetal-presentation.png"
-                            alt="Project Polymetal Presentation"
-                            class="project__preview"
-                        />
-                    </article>
+                    </div>
+                    <img src="./img/project-concept.png" alt="Project Concept" class="project__preview-image" />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">08 / Novatek Report</h3>
-                            <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
-                            <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">07 / Polymetal Presentation</h3>
+                        <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
+                        <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img
-                            src="./img/project-novatek-report.png"
-                            alt="Project Novatek Report"
-                            class="project__preview"
-                        />
-                    </article>
+                    </div>
+                    <img
+                        src="./img/project-polymetal-presentation.png"
+                        alt="Project Polymetal Presentation"
+                        class="project__preview-image"
+                    />
+                </article>
 
-                    <article class="project">
-                        <div class="project__info">
-                            <h3 class="project__heading">09 / Drafts</h3>
-                            <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
-                            <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
-                            <a href="#" class="project__link btn-inline">Explore project<span>&rarr;</span></a>
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">08 / Novatek Report</h3>
+                        <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
+                        <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
                         </div>
-                        <img src="./img/project-drafts.png" alt="Project DRAFTS" class="project__preview" />
-                    </article>
-                </section>
-            </main>
+                    </div>
+                    <img
+                        src="./img/project-novatek-report.png"
+                        alt="Project Novatek Report"
+                        class="project__preview-image"
+                    />
+                </article>
+
+                <article class="project">
+                    <div class="project__info">
+                        <h3 class="project__heading">09 / Drafts</h3>
+                        <p class="project__description">NOVATEK's 2018 Sustainability Report</p>
+                        <p class="project__instruments">Adobe InDesign, Adobe Photoshop, Adobe Illustrator</p>
+                        <div class="project__btn-container">
+                            <a href="#" class="project__link btn-inline">Explore project <span>&rarr;</span></a>
+                        </div>
+                    </div>
+                    <img src="./img/project-drafts.png" alt="Project DRAFTS" class="project__preview-image" />
+                </article>
+            </section>
             <footer class="site-footer">
                 <p class="site-footer__legal">Greta &mdash; 2020</p>
                 <div class="site-footer__socials">
